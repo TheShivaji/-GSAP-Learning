@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+}
+#page-1{
+  height: 100%;
+  width:100%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-2{
+  height: 100%;
+  width:100%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-3{
+  height: 100%;
+  width:100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #833AB4;
+background: linear-gradient(0deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 67%, rgba(252, 176, 69, 1) 100%);
+
+}
